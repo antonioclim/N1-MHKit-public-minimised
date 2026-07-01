@@ -1,12 +1,15 @@
 cff-version: 1.2.0
 title: "N1-MHKit: Figure-hardened public-minimised package for schema-first curation of multimodal personal health monitoring data"
-message: "Cite the Zenodo DOI assigned to the v6.7 figure-hardened public-minimised deposit."
+message: "Please cite this software using the Zenodo DOI below."
 type: software
 authors:
   - family-names: Clim
     given-names: Antonio
     affiliation: "Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies"
     orcid: "https://orcid.org/0000-0003-4745-0431"
-version: "v6.7-figure-hardened-public-minimised"
+version: "v6.7-author-confirmed-public-minimised"
 date-released: "2026-07-01"
 license: MIT
+doi: 10.5281/zenodo.21093741
+url: "https://github.com/antonioclim/N1-MHKit-public-minimised"
+repository-code: "https://github.com/antonioclim/N1-MHKit-public-minimised"
