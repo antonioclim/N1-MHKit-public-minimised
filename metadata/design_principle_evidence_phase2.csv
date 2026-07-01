@@ -1,8 +1,0 @@
-design_principle,evidence_object,JCIS_contribution,explicit_limitation
-Modality-specific provenance,data_dictionary.csv; device_dictionary.csv,Prevents device and raw-object ambiguity.,Does not validate device accuracy.
-Layered data architecture,withheld_source_layer/; withheld_intermediate_layer/; data_processed/,"Keeps raw, parsed and processed states inspectable.",Does not by itself provide chain-of-custody security.
-Measurement-level tagging,measurement_level fields; long-format table,"Separates session, daily, report, signal and context objects.",Does not create clinical semantics.
-Schema-first validation,schema_measurements_strict_v4.json; validator,"Defines expected variables, types and plausibility ranges.",Does not imply formal health-data standard compliance.
-Reproducibility by scope,smoke test; run_all; output-equivalence audit,Distinguishes executable workflow from exact output equivalence.,Full byte-level regeneration remains scope-limited.
-Privacy-gated release,release tiers; privacy triage; ethics statement,Makes release decisions explicit.,Does not guarantee anonymity.
-Non-clinical interpretability boundary,README; interpretation guide; manuscript limitations,Prevents misuse of N-of-1 curation outputs as clinical evidence.,Does not support patient/population inference.
