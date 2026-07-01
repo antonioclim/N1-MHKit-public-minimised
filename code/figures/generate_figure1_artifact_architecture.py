@@ -84,7 +84,7 @@ def main():
     ]
     ax.legend(handles=legend_elems, loc='lower left', bbox_to_anchor=(0.055, -0.005), frameon=False, fontsize=7.2, ncol=3, handletextpad=0.4, columnspacing=1.2)
 
-    save_all(fig, ROOT / 'figures', 'Figure_1_artifact_architecture_v6_7')
+    save_all(fig, ROOT / 'figures', 'Figure_1_artifact_architecture_v6_8')
     plt.close(fig)
 
 if __name__ == '__main__':

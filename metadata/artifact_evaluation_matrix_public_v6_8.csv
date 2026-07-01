@@ -1,0 +1,6 @@
+criterion,public_evidence,status,boundary
+Public file integrity,file_checksums_sha256.txt,PASS when validator passes,manifest covers public release only
+Public table schema,metadata/schema_public_wide_v6_8.json; metadata/schema_public_long_v6_8.json; metadata/schema_public_dictionary_v6_8.json,PASS when validator passes,"schema is a public package contract, not a health-data standard"
+Figure reproducibility,code/figures/; figure_sources/,PASS when figure generation script runs,no AI image model; platform rendering may vary
+Privacy-release boundary,PUBLIC_RELEASE_NOTICE_v6_8.md; reports/public_release_gate_v6_8.csv,PASS when blocked terms/files are absent,public minimisation reduces but does not prove anonymisation
+Clinical interpretation boundary,README.md; LICENSE_DATA.txt,NOT CLAIMED,"no diagnosis, treatment guidance or population inference"

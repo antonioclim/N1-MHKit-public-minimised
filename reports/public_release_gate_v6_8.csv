@@ -1,0 +1,8 @@
+release_element,status,reason
+code,public,needed for validation and figure regeneration
+data_processed_public,public-minimised,selected variables only; synthetic session IDs; coarse time categories
+figures and figure_sources,public,supports figure provenance and reproducibility
+source-layer files,excluded,outside public release boundary
+source media objects,excluded,outside public release boundary
+exact timestamps and source filenames,excluded,reduces linkage and routine-reconstruction risk
+contextual text and detailed participant context,excluded,reduces re-identification and sensitive-context risk
