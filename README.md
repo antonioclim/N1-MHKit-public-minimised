@@ -34,4 +34,5 @@ The demonstration package is non-clinical. It does not support diagnosis, treatm
 
 ## Citation
 
-Use the Zenodo DOI/version assigned to the v6.6 author-confirmed public-minimised deposit after upload.
+Please cite the v6.6 author-confirmed public-minimised Zenodo release:
+Clim, A. (2026). N1-MHKit: Public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.6-author-confirmed-public-minimised). Zenodo. https://doi.org/10.5281/zenodo.21093741
