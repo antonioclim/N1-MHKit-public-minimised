@@ -1,0 +1,9 @@
+source_entity,target_entity,relationship_label
+package,session,contains
+session,measurement,has
+measurement,variable,describes
+measurement,unit,uses
+measurement,device,records
+measurement,level,classifies
+measurement,qc,flags
+measurement,release,bounds

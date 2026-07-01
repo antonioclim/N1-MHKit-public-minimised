@@ -1,0 +1,4 @@
+source,target,relation
+source_header,artifact_header,curated into
+artifact_header,evidence_header,evaluated by
+evidence_header,release_header,gates

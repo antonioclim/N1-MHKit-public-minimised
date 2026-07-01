@@ -1,0 +1,7 @@
+{
+  "input_csv": "data_processed_public/clean_measurements_wide_public_minimised.csv",
+  "reference_column": "omron_sbp_mmHg",
+  "comparison_column": "samsung_sbp_mmHg",
+  "output_prefix": "Figure_S1_provenance_paired_sbp",
+  "interpretation_boundary": "Provenance and data-quality illustration only; not clinical validation."
+}

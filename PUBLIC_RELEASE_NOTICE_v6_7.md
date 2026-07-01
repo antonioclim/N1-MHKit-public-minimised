@@ -1,0 +1,7 @@
+# Public release notice (v6.7 figure-hardened)
+
+This is the public-minimised release of N1-MHKit prepared for Journal of Computer Information Systems review and citation. It includes public-minimised processed tables, metadata, documentation, reproducible figure-source files and validation scripts.
+
+This release excludes withheld source-layer files, raw media objects, exact local timestamps, source filenames, contextual text and detailed participant-context materials. It is non-clinical and must not be used for diagnosis, treatment guidance, device certification, causal inference or population-level health conclusions.
+
+No generative AI image model was used to create, generate or alter the figures or artwork.
