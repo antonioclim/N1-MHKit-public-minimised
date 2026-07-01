@@ -1,0 +1,6 @@
+object,definition,role_in_article,boundary_or_limitation
+Artifact,"Reusable schema-first curation workflow composed of code, schema, metadata, reports and documentation.",Design and evaluation target.,"Can be adapted, audited and extended if assumptions are documented."
+Demonstration package,"One consenting self-tracking participant, 52 sessions, eight calendar days, heterogeneous devices and withheld source media.","Stress-test case for heterogeneity, not clinical evidence.",Not statistically generalisable and not a patient cohort.
+Processed tables,Curated wide/long tables and QC outputs.,Evidence of transformation and schema governance.,Granular timestamps and context may remain privacy-sensitive.
+Raw media,withheld report files and source media recordings inside nested raw session archive.,Evidence that the pipeline can preserve raw-object boundaries.,"Conditional, restricted or withheld release recommended unless manual review is documented."
+Repository package,"Code, documentation, manifests, reports and data layers.",Publication and reproducibility vehicle.,Persistent public release can amplify residual privacy risk.

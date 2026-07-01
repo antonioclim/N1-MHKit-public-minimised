@@ -1,0 +1,5 @@
+Public-minimised data licence notice
+
+The public-minimised processed tables and metadata are intended for research-software inspection, reproducibility review and data-management demonstration. They are not clinical data for diagnosis, treatment, device certification, causal inference or population-level health conclusions.
+
+Reuse must preserve the non-clinical interpretation boundary and must not attempt re-identification, linkage, or reconstruction of withheld source-layer materials.
