@@ -57,6 +57,6 @@ The demonstration package is non-clinical. It does not support diagnosis, treatm
 
 All-version concept DOI:
 
-Clim, A. (2026). N1-MHKit: Final-clean public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8-final-clean-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21093740
+Clim, A. (2026). N1-MHKit: Final-clean public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8-final-clean-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21111670
 
 For a manuscript reference after publication of the Zenodo v6.8 record, use the version-specific DOI displayed on the v6.8 Zenodo landing page.
