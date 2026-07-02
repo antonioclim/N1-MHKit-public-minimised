@@ -31,13 +31,17 @@ mpl.rcParams.update({
     'pdf.fonttype': 42,
     'ps.fonttype': 42,
     'svg.fonttype': 'none',
-    'svg.hashsalt': 'n1mhkit-v6-8-1-figure1-repair',
+    'svg.hashsalt': 'n1mhkit-v6-8-2-jcis-compliance',
 })
 
 def save_all(fig, out_dir: Path, stem: str):
     out_dir.mkdir(parents=True, exist_ok=True)
     metadata = {'Creator': 'N1-MHKit programmatic figure script', 'Title': stem}
     fig.savefig(out_dir / f'{stem}.png', dpi=600, bbox_inches='tight', pad_inches=0.03, metadata=metadata)
+    try:
+        fig.savefig(out_dir / f'{stem}.tiff', dpi=1200, bbox_inches='tight', pad_inches=0.03, pil_kwargs={'compression': 'tiff_lzw'})
+    except TypeError:
+        fig.savefig(out_dir / f'{stem}.tiff', dpi=1200, bbox_inches='tight', pad_inches=0.03)
     
     svg_path = out_dir / f'{stem}.svg'
     fig.savefig(svg_path, bbox_inches='tight', pad_inches=0.03, metadata=metadata)

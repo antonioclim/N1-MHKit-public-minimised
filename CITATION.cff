@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-title: "N1-MHKit: Figure-1-repair public-minimised package for schema-first curation of multimodal personal health monitoring data"
-message: "Please cite the Zenodo concept DOI below or the version-specific DOI shown on the v6.8.1 Zenodo landing page."
+title: "N1-MHKit: JCIS-compliance public-minimised package for schema-first curation of multimodal personal health monitoring data"
+message: "Please cite the Zenodo concept DOI below or the version-specific DOI shown on the v6.8.2 Zenodo landing page."
 type: software
 authors:
   - family-names: Clim
     given-names: Antonio
     affiliation: "Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies"
     orcid: "https://orcid.org/0000-0003-4745-0431"
-version: "v6.8.1-figure1-repair-public-minimised"
+version: "v6.8.2-jcis-compliance-public-minimised"
 date-released: "2026-07-01"
 license: MIT
 doi: 10.5281/zenodo.21093740

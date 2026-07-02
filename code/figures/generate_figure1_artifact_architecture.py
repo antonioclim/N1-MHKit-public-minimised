@@ -117,7 +117,7 @@ def main():
     ax.text(0.1325, 0.102, 'outside public package', ha='center', va='center',
             fontsize=6.70, color=LINE)
 
-    save_all(fig, ROOT / 'figures', 'Figure_1_artifact_architecture_v6_8_1')
+    save_all(fig, ROOT / 'figures', 'Figure_1_artifact_architecture_v6_8_2')
     plt.close(fig)
 
 if __name__ == '__main__':

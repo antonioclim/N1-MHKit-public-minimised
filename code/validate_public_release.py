@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the v6.8.1 public-minimised release boundary, schemas and checksums."""
+"""Validate the v6.8.2 public-minimised release boundary, schemas and checksums."""
 from __future__ import annotations
 from pathlib import Path
 import argparse, hashlib, json, re, sys
@@ -20,9 +20,9 @@ blocked_terms=[
 allowed_context_markers=['excluded','withheld','outside the public release boundary','not part of this public package']
 skip_text_scan={
     'code/validate_public_release.py',
-    'metadata/schema_public_wide_v6_8_1.json',
-    'metadata/schema_public_long_v6_8_1.json',
-    'metadata/schema_public_dictionary_v6_8_1.json'
+    'metadata/schema_public_wide_v6_8_2.json',
+    'metadata/schema_public_long_v6_8_2.json',
+    'metadata/schema_public_dictionary_v6_8_2.json'
 }
 manifest=root/'file_checksums_sha256.txt'
 if not manifest.exists():
@@ -72,9 +72,9 @@ def load_json(rel):
         errors.append(f'Missing schema: {rel}')
         return None
     return json.loads(p.read_text(encoding='utf-8'))
-wide_schema=load_json('metadata/schema_public_wide_v6_8_1.json')
-long_schema=load_json('metadata/schema_public_long_v6_8_1.json')
-dict_schema=load_json('metadata/schema_public_dictionary_v6_8_1.json')
+wide_schema=load_json('metadata/schema_public_wide_v6_8_2.json')
+long_schema=load_json('metadata/schema_public_long_v6_8_2.json')
+dict_schema=load_json('metadata/schema_public_dictionary_v6_8_2.json')
 try:
     wide=pd.read_csv(root/'data_processed_public'/'clean_measurements_wide_public_minimised.csv')
     long=pd.read_csv(root/'data_processed_public'/'clean_measurements_long_public_minimised.csv')
@@ -84,7 +84,7 @@ except Exception as exc:
     wide=long=dd=None
 if wide is not None and wide_schema:
     if list(wide.columns)!=wide_schema['required_columns']:
-        errors.append('Wide table columns do not match schema_public_wide_v6_8_1.json')
+        errors.append('Wide table columns do not match schema_public_wide_v6_8_2.json')
     if len(wide)!=wide_schema['expected_rows']:
         errors.append(f"Wide table row count {len(wide)} != expected {wide_schema['expected_rows']}")
     present=set(wide_schema.get('forbidden_columns', [])).intersection(wide.columns)
@@ -94,17 +94,17 @@ if wide is not None and wide_schema:
         errors.append('public_session_id does not match S001-style public pattern')
 if long is not None and long_schema:
     if list(long.columns)!=long_schema['required_columns']:
-        errors.append('Long table columns do not match schema_public_long_v6_8_1.json')
+        errors.append('Long table columns do not match schema_public_long_v6_8_2.json')
     bad=set(long['variable_name'].dropna().unique())-set(long_schema.get('allowed_variable_names', []))
     if bad:
         errors.append(f'Long table has variable_name values outside schema: {sorted(bad)}')
 if dd is not None and dict_schema and wide is not None:
     if list(dd.columns)!=dict_schema['required_columns']:
-        errors.append('Data dictionary columns do not match schema_public_dictionary_v6_8_1.json')
+        errors.append('Data dictionary columns do not match schema_public_dictionary_v6_8_2.json')
     if set(dd['variable_name'])!=set(wide.columns):
         errors.append('Data dictionary variable_name values do not match wide table columns')
 if errors:
     print('FAIL')
     print('\n'.join(errors))
     sys.exit(1)
-print('PASS: v6.8.1 public-release integrity, schema and boundary audit')
+print('PASS: v6.8.2 public-release integrity, schema and boundary audit')

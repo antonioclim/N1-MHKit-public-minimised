@@ -1,6 +1,6 @@
-# N1-MHKit public-minimised release (v6.8.1 figure-1 repair)
+# N1-MHKit public-minimised release (v6.8.2 JCIS compliance)
 
-N1-MHKit is a reproducible data-management artifact for multimodal personal health monitoring information systems. This figure-1-repair public-minimised release supports inspection of the Journal of Computer Information Systems submission by providing code, metadata, documentation, public-minimised processed tables and reproducible manuscript figure sources.
+N1-MHKit is a reproducible data-management artifact for multimodal personal health monitoring information systems. This v6.8.2 public-minimised release aligns the repository package with the Journal of Computer Information Systems submission package by providing code, metadata, documentation, public-minimised processed tables and reproducible manuscript figure sources.
 
 ## Creator and maintainer
 
@@ -13,7 +13,7 @@ Scopus Author ID: 55753988600
 
 ## Scope
 
-This public package is deliberately smaller than the restricted verification package. It is intended for research-software inspection, data-management review, reproducibility checking of public-minimised artefacts, and documentation of the Design Science Research artifact.
+This public package is deliberately smaller than the restricted verification package. It is intended for research-software inspection, data-management review, reproducibility checking of public-minimised artifacts and documentation of the Design Science Research artifact.
 
 ## Included
 
@@ -22,7 +22,7 @@ This public package is deliberately smaller than the restricted verification pac
 - Public-specific Design Science Research traceability metadata.
 - Public-release gate documentation.
 - Reproducible figure sources for manuscript Figure 1, Figure 2 and Supplementary Figure S1.
-- PDF, SVG and high-resolution PNG figure exports.
+- PDF, SVG, high-resolution PNG and 1200-dpi TIFF figure exports.
 - Public package smoke-test, schema-check and integrity-audit scripts.
 
 ## Excluded
@@ -51,17 +51,16 @@ python code/figures/generate_all_manuscript_figures.py
 
 ## Interpretation boundary
 
-The demonstration package is non-clinical. It does not support diagnosis, treatment guidance, device certification, causal inference, or population-level health conclusions. The contribution is the curation artifact and its documentation.
+The demonstration package is non-clinical. It does not support diagnosis, treatment guidance, device certification, causal inference or population-level health conclusions. The contribution is the curation artifact and its documentation.
 
+## JCIS submission compliance note
 
-## Figure-1 repair note
-
-Version v6.8.1 repairs Figure 1 by adding right-side padding, removing overlapping arrow labels and replacing the ambiguous bottom legend marks with an explicit public-package contents callout. The figure remains programmatically generated from CSV figure-source files.
+Version v6.8.2 aligns the public repository package with the JCIS v6.8.2 submission package. The public tables, validation scripts, privacy boundary and figure-generation sources remain within the public-minimised boundary. The repository continues to exclude source-layer and restricted verification materials.
 
 ## Citation
 
 All-version concept DOI:
 
-Clim, A. (2026). N1-MHKit: Figure-1-repair public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8.1-figure1-repair-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21093740
+Clim, A. (2026). N1-MHKit: JCIS-compliance public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8.2-jcis-compliance-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21093740
 
-For a manuscript reference after publication of the Zenodo v6.8.1 record, use the version-specific DOI displayed on the v6.8.1 Zenodo landing page.
+For a manuscript reference after publication of the Zenodo v6.8.2 record, use the version-specific DOI displayed on the v6.8.2 Zenodo landing page.

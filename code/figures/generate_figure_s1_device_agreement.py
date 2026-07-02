@@ -43,7 +43,7 @@ def main():
     ax.spines['left'].set_color(LINE); ax.spines['bottom'].set_color(LINE)
     ax.tick_params(axis='both', labelsize=8)
     ax.grid(axis='y', color='#e2e6ea', linewidth=0.45)
-    save_all(fig, ROOT / 'supplementary_figures', 'Figure_S1_provenance_paired_sbp_v6_8_1')
+    save_all(fig, ROOT / 'supplementary_figures', 'Figure_S1_provenance_paired_sbp_v6_8_2')
     plt.close(fig)
 
 if __name__ == '__main__':

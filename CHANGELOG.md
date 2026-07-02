@@ -1,24 +1,22 @@
 # Changelog
 
-## v6.8.1 final typography patch for Figure 1
+## v6.8.2 JCIS compliance public-minimised release
 
-- Increased vertical separation between the `Source layer` title and the `restricted/withheld` body text in Figure 1.
-- No data, table, claim or release-boundary content was changed.
+- Aligns the public-minimised package with the v6.8.2 JCIS submission package.
+- Retains the repaired Figure 1 layout, public tables, public schemas, validation scripts and privacy boundary.
+- Adds 1200-dpi TIFF exports alongside PDF/SVG/PNG figure files.
+- Updates public metadata, documentation, release notes, manifest and data-package resources to v6.8.2.
+- Retains the explicit statement that no generative AI image model was used to create, generate or alter figures or artwork.
+- Source-layer files, raw media objects, exact local timestamps, source filenames, contextual text, raw ECG PDF reports, PCG/WAV audio files and detailed participant context remain excluded from this public release.
 
 ## v6.8.1 figure-1 repair public-minimised release
 
-- Rebuilt Figure 1 with additional right-side padding.
-- Removed arrow labels that overlapped adjacent architecture panels.
-- Replaced ambiguous status/legend squares with an explicit callout: examples of artefacts included in the public-minimised package.
-- Added `figure_sources/figure1_public_outputs.csv` as a source file for the callout.
-- Kept Figure 1 fully programmatic and non-generative. No AI image model was used.
+- Repaired Figure 1 typography and architecture readability.
+- Increased right-side padding, removed overlapping arrow labels and replaced ambiguous legend marks with an explicit public-package contents callout.
 
-## v6.8.1 figure-1 repair public-minimised
+## v6.8 final clean public-minimised release
 
-- Removed Python bytecode caches and cache folders.
-- Regenerated manifest, dataset manifest and datapackage metadata.
-- Replaced historical metadata with public v6.8.1 metadata and schemas.
-- Added public JSON schema checks to the validator.
-- Removed residual contextual/symptom labels from public tables.
-- Recoded public session identifiers to S001-S052.
-- Retained programmatic figure sources and non-generative figure provenance.
+- Removed Python bytecode/cache files.
+- Regenerated manifests and data-package resources.
+- Replaced historical v4/phase2 metadata with public v6.8 metadata.
+- Added public JSON schemas and strengthened the public validator.
