@@ -1,6 +1,6 @@
-# N1-MHKit public-minimised release (v6.8 final clean)
+# N1-MHKit public-minimised release (v6.8.1 figure-1 repair)
 
-N1-MHKit is a reproducible data-management artifact for multimodal personal health monitoring information systems. This final-clean public-minimised release supports inspection of the Journal of Computer Information Systems submission by providing code, metadata, documentation, public-minimised processed tables and reproducible manuscript figure sources.
+N1-MHKit is a reproducible data-management artifact for multimodal personal health monitoring information systems. This figure-1-repair public-minimised release supports inspection of the Journal of Computer Information Systems submission by providing code, metadata, documentation, public-minimised processed tables and reproducible manuscript figure sources.
 
 ## Creator and maintainer
 
@@ -53,10 +53,15 @@ python code/figures/generate_all_manuscript_figures.py
 
 The demonstration package is non-clinical. It does not support diagnosis, treatment guidance, device certification, causal inference, or population-level health conclusions. The contribution is the curation artifact and its documentation.
 
+
+## Figure-1 repair note
+
+Version v6.8.1 repairs Figure 1 by adding right-side padding, removing overlapping arrow labels and replacing the ambiguous bottom legend marks with an explicit public-package contents callout. The figure remains programmatically generated from CSV figure-source files.
+
 ## Citation
 
 All-version concept DOI:
 
-Clim, A. (2026). N1-MHKit: Final-clean public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8-final-clean-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21111670
+Clim, A. (2026). N1-MHKit: Figure-1-repair public-minimised package for reproducible curation of multimodal personal health monitoring data (v6.8.1-figure1-repair-public-minimised) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21093740
 
-For a manuscript reference after publication of the Zenodo v6.8 record, use the version-specific DOI displayed on the v6.8 Zenodo landing page.
+For a manuscript reference after publication of the Zenodo v6.8.1 record, use the version-specific DOI displayed on the v6.8.1 Zenodo landing page.
