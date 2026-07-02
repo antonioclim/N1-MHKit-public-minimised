@@ -10,6 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 import sys
+sys.dont_write_bytecode = True
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -60,7 +61,7 @@ def main():
     ax.plot([0.21,0.79], [0.38,0.38], color=LINE, lw=0.6, linestyle=(0,(2,2)))
     ax.text(0.79,0.405,'metadata-bound\nattributes', ha='center', va='center', fontsize=7.4, color=LINE)
 
-    save_all(fig, ROOT / 'figures', 'Figure_2_schema_first_model_v6_8')
+    save_all(fig, ROOT / 'figures', 'Figure_2_schema_first_model_v6_8_1')
     plt.close(fig)
 
 if __name__ == '__main__':

@@ -31,7 +31,7 @@ mpl.rcParams.update({
     'pdf.fonttype': 42,
     'ps.fonttype': 42,
     'svg.fonttype': 'none',
-    'svg.hashsalt': 'n1mhkit-v6-8-final-clean',
+    'svg.hashsalt': 'n1mhkit-v6-8-1-figure1-repair',
 })
 
 def save_all(fig, out_dir: Path, stem: str):

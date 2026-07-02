@@ -1,0 +1,6 @@
+module,public_contents,function,boundary
+Public table layer,wide and long public-minimised tables,demonstrates curated data structure,selected variables only
+Public schema layer,schema_public_wide/long/dictionary JSON,declares expected public table contracts,not a medical standard
+Figure provenance layer,figure_sources and code/figures scripts,regenerates manuscript figures,not AI-generated artwork
+Integrity layer,file_checksums_sha256.txt; dataset_manifest.csv,supports file-level audit,does not secure external hosting
+Release gate layer,public_release_gate_v6_8_1.csv; validator,checks public-boundary conditions,does not prove anonymity

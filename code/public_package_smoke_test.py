@@ -10,4 +10,4 @@ assert {"public_session_id", "day_index", "time_of_day_category"}.issubset(wide.
 assert wide["public_session_id"].astype(str).str.match(r"^S[0-9]{3}$").all()
 assert {"public_session_id", "day_index", "time_of_day_category", "variable_name", "value"}.issubset(long.columns)
 assert set(dd["variable_name"]) == set(wide.columns)
-print("PASS: v6.8 public-minimised package smoke test")
+print("PASS: v6.8.1 public-minimised package smoke test")
