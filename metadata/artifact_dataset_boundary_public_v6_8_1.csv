@@ -1,6 +1,0 @@
-object,role,included_in_public_release,boundary,claim_allowed
-public-minimised package,public inspection layer,yes,"code, public tables, metadata, figure sources and validation reports",supports artifact inspection; not a full source-data release
-restricted verification package,private/editor-verifiable source evidence,no,source-layer objects and restricted verification materials,may support internal verification only
-public processed tables,minimised demonstration data,yes,synthetic session IDs; coarse day/time categories; selected variables only,supports data-management artifact review; not clinical inference
-figure sources,reproducible artwork inputs,yes,CSV/JSON figure specifications and scripts,supports non-AI figure provenance
-withheld source media and contextual text,sensitive source layer,no,outside public release,excluded from public package to reduce privacy and linkage risk

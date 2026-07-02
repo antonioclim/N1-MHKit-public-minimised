@@ -1,6 +1,0 @@
-design_issue,artifact_response,public_evidence,claim_boundary
-Public reuse can confuse artifact evidence with source-data release,Separate public-minimised package from restricted verification materials,PUBLIC_RELEASE_NOTICE_v6_8_1.md,public release is not full source-data disclosure
-Schema-first claims need public verification,Expose public schema contracts and validate public tables,schema_public_*.json; validate_public_release.py,schema contract is package-level only
-Figures should not appear AI-generated or decorative,Generate figures from CSV/JSON sources using deterministic scripts,figure_sources/; code/figures/,no generative AI image model used
-Health-like variables can be overinterpreted,Use non-clinical boundary statements and minimised variables,README.md; LICENSE_DATA.txt; data dictionary,no clinical or population claim
-Open repositories can expose sensitive source materials,Exclude source-layer materials and validate blocked files/terms,validate_public_release.py; release gate,not an anonymisation guarantee

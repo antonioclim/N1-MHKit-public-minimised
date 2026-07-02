@@ -1,7 +1,0 @@
-DSR_activity,public_package_response,public_evidence
-Problem identification,Heterogeneous personal monitoring data require curation before reuse,README.md; docs/technical_architecture_public_v6_8_1.md
-Objectives of a solution,"Document variables, provenance, validation and release boundary",data dictionary; schema JSON; release gate
-Design and development,"Provide public-minimised code, tables, figure sources and validation scripts",code/; data_processed_public/; figure_sources/
-Demonstration,Use public-minimised session records to show artifact operation,clean_measurements_wide_public_minimised.csv; clean_measurements_long_public_minimised.csv
-Evaluation,"Run smoke, schema, boundary and manifest checks",code/public_package_smoke_test.py; code/validate_public_release.py
-Communication,Supply manuscript figures and public release documentation,figures/; supplementary_figures/; docs/
