@@ -1,0 +1,6 @@
+principle,public_evidence,limit
+Separate artifact from demonstration data,metadata/artifact_dataset_boundary_public_v6_8_2.csv,does not make the demonstration statistically generalisable
+Preserve provenance without exposing source materials,public metadata and figure sources,restricted source materials are excluded from public release
+Use schema-first public contracts,metadata/schema_public_*.json,not a formal HL7/FHIR or clinical interoperability claim
+Report reproducibility by public scope,public smoke test; validator; figure scripts,restricted raw-to-processed verification is outside the public package
+Treat release readiness as a design function,reports/public_release_gate_v6_8_2.csv,does not guarantee anonymity or prevent all linkage
